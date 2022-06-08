@@ -6,5 +6,5 @@ payButton.addEventListener('click', e => {
 })
 
 popUp.addEventListener('click', e =>{
-    popUp.style.visibility = 'hidden';
+    window.location.href = '../HTML/Home.html';
 })

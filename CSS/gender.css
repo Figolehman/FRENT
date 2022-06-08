@@ -186,6 +186,28 @@ a.btn{
 
 col{
     align-items: center;
+    position: relative;
+}
+
+.check-select{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.check1{
+    left: 750px;
+}
+
+.check2{
+    top: 275px;
+    right: 550px;
+}
+
+.fotoPria, .fotoWanit, .MaleText, .FemaleText{
+    cursor: pointer;
+    transition: 0.5 ease;
 }
 
 .fotoPria{
@@ -214,3 +236,6 @@ p.FemaleText{
 }
 
 
+.confirmBtn{
+    cursor: pointer;
+}
